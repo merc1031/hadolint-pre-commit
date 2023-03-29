@@ -4,4 +4,4 @@
   language: docker_image
   types:
   - dockerfile
-  entry: --entrypoint /bin/hadolint hadolint/hadolint:v2.8.0-alpine --ignore DL3013 --ignore DL3018 --ignore DL3008 -
+  entry: --entrypoint /bin/hadolint hadolint/hadolint:v2.12.0-alpine --ignore DL3013 --ignore DL3018 --ignore DL3008 -
